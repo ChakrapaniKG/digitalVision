@@ -1,7 +1,7 @@
 import cv2
 
 #use Source = 0 for webcam as the input otherwise pass in the path
-source = '..\\race_car_slow_motion.mp4'
+source = '../race_car.mp4'
 
 #Creating video capture object from the VideoCapture class
 video_cap = cv2.VideoCapture(source)
